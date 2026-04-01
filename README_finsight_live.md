@@ -137,7 +137,7 @@ jupyter notebook
 | Project | Description | Link |
 |---------|-------------|------|
 | 📈 FinSight AI v1 | Same analytics stack - GBM simulation engine | [FinSight-Ai](https://github.com/nemojain/FinSight-Ai) |
-| 📊 PerfIQ FP&A | Enterprise financial planning — 504k+ GL transactions | [fpa-command-center](https://github.com/nemojain/fpa-command-center) |
+| 📊 PerfIQ FP&A | Enterprise financial planning - 504k+ GL transactions | [fpa-command-center](https://github.com/nemojain/fpa-command-center) |
 
 ---
 
