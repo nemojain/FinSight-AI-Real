@@ -1,6 +1,6 @@
-# 📡 FinSight AI v2 — Live Market Data Analytics
+# 📡 FinSight AI v2 - Live Market Data Analytics
 
-> **Real-time quantitative analytics pipeline** pulling live OHLCV market data from Yahoo Finance via `yfinance`, computing institutional-grade risk metrics, and generating AI-powered insights using the Anthropic Claude API — across 3 years of actual market history (2022–2024).
+> **Real-time quantitative analytics pipeline** pulling live OHLCV market data from Yahoo Finance via `yfinance`, computing institutional-grade risk metrics, and generating AI-powered insights using the Anthropic Claude API; across 3 years of actual market history (2022–2024).
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
 ![yfinance](https://img.shields.io/badge/yfinance-Live%20Data-00843D?style=flat&logo=yahoo&logoColor=white)
@@ -10,18 +10,18 @@
 ![Claude API](https://img.shields.io/badge/Claude-Sonnet_4-D97706?style=flat&logo=anthropic&logoColor=white)
 ![Data](https://img.shields.io/badge/Data-Yahoo%20Finance%20(Real)-brightgreen?style=flat)
 
-> 🔗 **Looking for the simulation-based version?** → [FinSight AI v1 — GBM Simulation Engine](https://github.com/nemojain/FinSight-Ai)
+> 🔗 **Looking for the simulation-based version?** → [FinSight AI v1 - GBM Simulation Engine](https://github.com/nemojain/FinSight-Ai)
 
 ---
 
-## 📌 v1 vs v2 — What Changed
+## 📌 v1 vs v2 - What Changed
 
 | | FinSight AI v1 (GBM) | FinSight AI v2 (Live) |
 |---|---|---|
-| Data source | Synthetic — Geometric Brownian Motion | Real — Yahoo Finance via yfinance |
+| Data source | Synthetic -> Geometric Brownian Motion | Real -> Yahoo Finance via yfinance |
 | Data granularity | Minute-level ticks | Daily OHLCV |
 | Records | 491,400+ simulated | ~750 real trading days × 5 tickers |
-| Market events | Simulated drift & volatility | Real — 2022 selloff, 2023 AI rally, NVDA surge |
+| Market events | Simulated drift & volatility | Real - 2022 selloff, 2023 AI rally, NVDA surge |
 | Reproducibility | Identical every run (seeded) | Updates daily as new data arrives |
 | Skewness & kurtosis | Symmetric (GBM assumption) | Real fat tails and negative skew |
 
@@ -32,9 +32,9 @@
 - 📡 **Pulls 3 years of real OHLCV data** from Yahoo Finance using `yfinance` — no manual downloads
 - 📊 **Computes institutional risk metrics** from real returns: Sharpe ratio, VaR 95%/99%, Max Drawdown, Rolling Volatility
 - 🕯️ **Interactive candlestick charts** with MA20/MA50 overlays and real volume bars
-- 📉 **Return distribution analysis** — shows real negative skew and fat tails that GBM cannot replicate
+- 📉 **Return distribution analysis** - shows real negative skew and fat tails that GBM cannot replicate
 - 🔗 **Correlation matrix** computed from actual daily returns
-- 📅 **Real market event annotations** — Fed rate hikes, 2022 bottom, NVDA AI earnings, 2023 rally
+- 📅 **Real market event annotations** - Fed rate hikes, 2022 bottom, NVDA AI earnings, 2023 rally
 - 💹 **VWAP approximation** computed from real high/low/close/volume
 - 💼 **Equal-weight portfolio** with real cumulative returns and drawdown attribution
 - 🤖 **Anthropic Claude API** for natural-language analysis grounded in real market data
@@ -113,7 +113,7 @@ jupyter notebook
 
 **4️⃣ Open `finsight_ai_real.ipynb` → Kernel → Restart & Run All**
 
-> Data pulls automatically from Yahoo Finance — requires internet connection.  
+> Data pulls automatically from Yahoo Finance - requires internet connection.  
 > 💡 To enable AI insights, paste your Anthropic API key in the last cell.  
 > Get a free key at: [console.anthropic.com](https://console.anthropic.com)
 
@@ -136,17 +136,8 @@ jupyter notebook
 
 | Project | Description | Link |
 |---------|-------------|------|
-| 📈 FinSight AI v1 | Same analytics stack — GBM simulation engine | [FinSight-Ai](https://github.com/nemojain/FinSight-Ai) |
+| 📈 FinSight AI v1 | Same analytics stack - GBM simulation engine | [FinSight-Ai](https://github.com/nemojain/FinSight-Ai) |
 | 📊 PerfIQ FP&A | Enterprise financial planning — 504k+ GL transactions | [fpa-command-center](https://github.com/nemojain/fpa-command-center) |
-
----
-
-## 👤 Author
-
-**Nimanshu Jain**  
-🎓 MS Information Technology & Management — UT Dallas  
-📜 Graduate Certificate in Business Analytics & Data Mining  
-🔗 [LinkedIn](https://linkedin.com/in/nemojainn/) · [GitHub](https://github.com/nemojain)
 
 ---
 
